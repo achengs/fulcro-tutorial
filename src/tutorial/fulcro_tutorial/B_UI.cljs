@@ -93,7 +93,7 @@
 
   Again, you can drop this into a devcard and see it in action:
   ```
-  (defcard props-card (prop-widget {:name \"Sam\"}))
+  (defcard props-card (ui-prop-widget {:name \"Sam\"}))
   ```
   ")
 
