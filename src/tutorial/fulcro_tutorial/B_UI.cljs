@@ -224,7 +224,7 @@
     ...)
   ```
 
-  The code below shows a complete running component that is used in the card that follows, and receives it's callbacks
+  The code below shows a complete running component that is used in the card that follows, and receives its callbacks
   through the computed properties.
 
   "
