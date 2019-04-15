@@ -133,7 +133,7 @@
   Dropping this into a devcard with a tree of data will render what you would expect:
 
   ```
-  (defcard root-render (root {:number 52 :people [{:name \"Sam\"} {:name \"Joe\"}]}))
+  (defcard root-render (ui-root {:number 52 :people [{:name \"Sam\"} {:name \"Joe\"}]}))
   ```
 
   It is important to note that _this is exactly how the composition of UI components always happens_, independent of
