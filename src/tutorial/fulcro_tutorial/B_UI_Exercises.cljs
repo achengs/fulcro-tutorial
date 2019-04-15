@@ -54,11 +54,11 @@
 
   The UI will show a list of people and their partners.
 
-  The overall UI should look as shown below (which is build with plain React dom elements
+  The overall UI should look as shown below (which is built with plain React DOM elements
   and function composition):
 
   NOTE: We name our component factories with a `ui-` prefix. This makes it much easier for the reader to
-  visually distinguish our components from regular functions, and also prevents accidental name clases with
+  visually distinguish our components from regular functions, and also prevents accidental name clashes with
   data. For example, you might have `:person/address` that turns into a local data item called `address`. If your
   React renderer for that was also called `address` you'd have a problem.
 
