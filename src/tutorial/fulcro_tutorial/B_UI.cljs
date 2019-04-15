@@ -232,7 +232,7 @@
   (dc/mkdn-pprint-source ui-root-computed))
 
 (defcard passing-callbacks-via-computed
-  "This card is backing the React system with it's own atom-based state. By passing in callbacks that modify the
+  "This card is backing the React system with its own atom-based state. By passing in callbacks that modify the
   card state, the UI updates. This is similar to the mechanism used by many other React systems. Fulcro has a different idea. "
   (fn [data-atom-from-devcards _]
     (let [prop-data     @data-atom-from-devcards
