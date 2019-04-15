@@ -251,7 +251,7 @@
     (dom/span
       (prim/get-state this :counter))))
 
-(def simple-counter (prim/factory SimpleCounter))
+(def ui-simple-counter (prim/factory SimpleCounter))
 
 (defcard-doc
   "
@@ -306,13 +306,13 @@
   of a clean single refresh."
 
   (dc/mkdn-pprint-source SimpleCounter)
-  (dc/mkdn-pprint-source simple-counter))
+  (dc/mkdn-pprint-source ui-simple-counter))
 
 (defcard simple-counter-component
   "This card shows a component that changes state known only to the component itself"
   (fn [state-atom _]
     (dom/div
-      (simple-counter @state-atom))))
+      (ui-simple-counter @state-atom))))
 
 (defcard-doc
   "
